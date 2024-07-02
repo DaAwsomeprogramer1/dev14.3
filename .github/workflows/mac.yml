@@ -1,12 +1,7 @@
 name: macOS
 
 on:
- workflow_dispatch:
- 
-defaults:
- run:
-  shell: bash
-  
+ workflow_dispatch: 
 Jobs:
  build:
   runs-on: macos-latest
